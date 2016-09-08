@@ -7,3 +7,5 @@ with open("Dicc.txt","w+") as arch:
 
 cadena="aircrack-ng -w Dicc.txt "+sys.argv[1]
 os.system(cadena)
+
+os.remove("Dicc.txt")
